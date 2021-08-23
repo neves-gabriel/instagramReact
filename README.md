@@ -4,7 +4,7 @@
  
 ### Realizado por Gabriel Neves no Bootcamp Driven Education
 
-### Site disponivel em: 
+### Site disponivel em: https://neves-gabriel.github.io/Projeto_07_instagramReact/
 
 #### Preview do projeto:
-![Preview do projeto](public/assetss/img/preview.png)
+![Preview do projeto](public/assets/img/preview.png)
