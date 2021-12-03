@@ -1,4 +1,4 @@
-# Projeto #07 - Instagram [React]
+# Instagram [React]
 
 ### Projeto com o obejtivo de transformar o Projeto #02 - Instagram num projeto React
  
