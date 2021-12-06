@@ -1,36 +1,30 @@
-import Ion_Icons from "./Ion_Icons";
+import IonIcons from "./IonIcons";
+
+const icons = ["paper-plane-outline", "compass-outline", "heart-outline", "person-outline"]
 
 export default function Navbar() {
 
-    const icons = ["paper-plane-outline", "compass-outline", "heart-outline", "person-outline"]
-
     return (
-        <div class="navbar">
-            <div class="container">
-                <div class="logo">
-                    <Ion_Icons name="logo-instagram" />
-                    <div class="separador"></div>
-                    <img src="assets/img/logo.png" />
+        <div className="navbar">
+            <div className="container">
+                <div className="logo">
+                    <IonIcons name="logo-instagram" />
+                    <div className="separador"></div>
+                    <img src="assets/img/logo.png" alt="logo-instagram" />
                 </div>
 
-                <div class="logo-mobile">
-                </div>
-
-                <div class="instagram-mobile">
-                    <Ion_Icons name="logo-instagram" />
-                    <img src="assets/img/logo.png" />
+                <div className="instagram-mobile">
+                    <IonIcons name="logo-instagram" />
+                    <img src="assets/img/logo.png" alt="logo-instagram" />
+                    <IonIcons name="paper-plane-outline" />
                 </div>
         
-                <div class="pesquisa">
+                <div className="pesquisa">
                     <input type="text" placeholder="Pesquisar" />
                 </div>
         
-                <div class="icones">
-                    {icons.map(icon => <Ion_Icons name={icon} />)}
-                </div>
-
-                <div class="icones-mobile">
-                    <Ion_Icons name="paper-plane-outline" />
+                <div className="icones">
+                    {icons.map(icon => <IonIcons key={icon} name={icon} />)}
                 </div>
             </div>
         </div>

@@ -1,12 +1,12 @@
 import Story from "./Story";
-import Ion_Icons from "./Ion_Icons";
+import IonIcons from "./IonIcons";
 
 export default function Stories() {
     return (
-        <div class="stories">
+        <div className="stories">
             <Story />
-            <div class="setinha">
-                <Ion_Icons name="chevron-forward-circle" />
+            <div className="setinha">
+                <IonIcons name="chevron-forward-circle" />
             </div>
           </div>
     );

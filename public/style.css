@@ -363,10 +363,6 @@
       display: none;
     }
   
-    .navbar .icones-mobile {
-      display: flex;
-    }
-  
     .fundo-mobile {
       display: flex;
       padding: 0 20px;
@@ -385,13 +381,11 @@
     .navbar .logo {
       display: none;
     }
-  
-    .logo-mobile, .instagram-mobile {
-      display: flex !important;
-    }
-  
+    
     .instagram-mobile {
-      position: relative;
-      top: 4px;
+      display: flex !important;
+      width: 100vw;
+      justify-content: space-between;
+      align-items: center;
     }
   }
